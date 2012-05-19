@@ -1,0 +1,31 @@
+running retry many callbacks
+running retry beforeCommit upgrade on read-only commit
+running retry retry in beforeCommit
+running retry exception in beforeCommit
+running retry surviving beforeCommit
+running retry afterRollback on commit
+running retry afterRollback on rollback
+running retry afterCommit runs a txn
+running retry afterCommit doesn't access txn
+running retry beforeCommit during beforeCommit
+running retry beforeCommit termination
+running retry manual optimistic retry
+running retry manual optimistic retry during beforeCommit
+running retry whilePreparing
+running retry whilePreparing throws exception
+running retry whileCommitting
+running retry whileCommitting without any accesses
+running retry accepting external decider
+running retry valid duplicate external decider
+running retry invalid duplicate external decider
+running retry transient reject external decider
+running retry nested external deciders
+running retry external decider throws exception
+running retry rethrown exception from whileCommitting handler
+running retry swallowed exception from whileCommitting handler
+running retry rethrown exception from afterCommit handler
+running retry swallowed exception from afterCommit handler
+running retry rethrown exception from afterRollback handler
+running retry swallowed exception from afterRollback handler
+running retry rethrow afterRollback exception cancels retry
+running retry UserException as control flow

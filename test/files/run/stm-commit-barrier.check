@@ -1,0 +1,21 @@
+running retry single member commit
+running retry single member cancel
+running retry single member failure
+running retry override executor
+running retry stress 2
+running retry stress 10
+running retry stress 400
+running retry partial success 2
+running retry partial success 400
+running retry perf 2
+running retry perf 10
+running retry timeout
+running retry interrupt
+running retry control flow exception
+running retry cycle 2 x 1000
+running retry cycle 3 x 1000
+running retry cycle 1000 x 3
+running retry auto-cancel
+running retry no auto-cancel
+running retry embedded orAtomic
+running retry recursive

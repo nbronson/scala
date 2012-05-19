@@ -1,0 +1,3 @@
+running retry small non-txn threesome
+running retry small txn threesome
+running retry small txn threesome reading via write

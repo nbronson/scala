@@ -1,0 +1,6 @@
+running retry small 1000 refs, 80 % read, 4 threads, 8 ops/txn, nested=false
+running retry small 1000 refs, 80 % read, 4 threads, 8 ops/txn, nested=true
+running retry small 1000 refs, 80 % read, 4 threads, 64 ops/txn, nested=false
+running retry small 1000 refs, 80 % read, 4 threads, 64 ops/txn, nested=true
+running retry starving elder small
+running retry colliding trySet

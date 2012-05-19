@@ -1,0 +1,82 @@
+running retry primitive factory and ClassManifest generic produce same type
+running retry get and set
+running retry get and trySet
+running retry compareAndSet
+running retry swap
+running retry set + swap
+running retry transform
+running retry getAndTransform
+running retry transformAndGet
+running retry transformIfDefined
+running retry += 1
+running retry -= -1
+running retry *= 2
+running retry getWith
+running retry write ; getWith
+running retry getWith ; write
+running retry relaxedGet
+running retry write ; relaxedGet
+running retry relaxedGet ; write
+running retry initially true await
+running retry initially true tryAwait
+running retry false tryAwait with a zero timeout
+running retry excepting transform
+running retry excepting transformIfDefined
+running retry .equals not involved in get and set
+running retry excepting compareAndSet
+running retry compareAndSetIdentity
+running retry -= -1 long
+running retry /=
+running retry /= double
+running retry /= float
+running retry BigInt ops
+running retry BigDecimal ops
+running retry Boolean simple get+set
+running retry Boolean Ref equality
+running retry Boolean TArray Ref equality
+running retry Boolean TArray Ref inequality between arrays
+running retry Byte simple get+set
+running retry Byte Ref equality
+running retry Byte TArray Ref equality
+running retry Byte TArray Ref inequality between arrays
+running retry Short simple get+set
+running retry Short Ref equality
+running retry Short TArray Ref equality
+running retry Short TArray Ref inequality between arrays
+running retry Character simple get+set
+running retry Character Ref equality
+running retry Character TArray Ref equality
+running retry Character TArray Ref inequality between arrays
+running retry Integer simple get+set
+running retry Integer Ref equality
+running retry Integer TArray Ref equality
+running retry Integer TArray Ref inequality between arrays
+running retry Float simple get+set
+running retry Float Ref equality
+running retry Float TArray Ref equality
+running retry Float TArray Ref inequality between arrays
+running retry Long simple get+set
+running retry Long Ref equality
+running retry Long TArray Ref equality
+running retry Long TArray Ref inequality between arrays
+running retry Double simple get+set
+running retry Double Ref equality
+running retry Double TArray Ref equality
+running retry Double TArray Ref inequality between arrays
+running retry BoxedUnit simple get+set
+running retry BoxedUnit Ref equality
+running retry BoxedUnit TArray Ref equality
+running retry BoxedUnit TArray Ref inequality between arrays
+running retry String simple get+set
+running retry String Ref equality
+running retry String TArray Ref equality
+running retry String TArray Ref inequality between arrays
+running retry TArray Ref inequality between indices
+running retry TArray index checking
+running retry TArray length
+running retry proxy Ref equality
+running retry TxnExecutor.compareAndSet
+running retry TxnExecutor.compareAndSet non-txn exhaustive
+running retry TxnExecutor.compareAndSet txn exhaustive
+running retry TxnExecutor.compareAndSetIdentity non-txn exhaustive
+running retry TxnExecutor.compareAndSetIdentity txn exhaustive

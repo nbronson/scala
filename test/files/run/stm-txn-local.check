@@ -1,0 +1,21 @@
+running retry default initial value
+running retry initialize with init
+running retry initialize with initialValue
+running retry initialValue overrides init
+running retry use in afterCompletion handler
+running retry partial rollback restores previous value
+running retry partial rollback triggers new initialization
+running retry all RefLike operations
+running retry first init in whilePreparing handler
+running retry first initialValue in beforeCommit handler
+running retry first initialValue in whilePreparing handler
+running retry first initialValue in whileCommitting handler
+running retry auto-register beforeCommit
+running retry auto-register whilePreparing
+running retry auto-register whileCommitting
+running retry auto-register afterCommit
+running retry auto-register afterRollback
+running retry auto-register afterCompletion - commit
+running retry auto-register afterCompletion - rollback
+running retry auto-register everything
+running retry isolation

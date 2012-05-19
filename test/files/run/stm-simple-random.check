@@ -1,0 +1,6 @@
+running retry nextInt
+running retry nextInt(n) in range
+running retry clone
+running retry seeded
+running retry global SimpleRandom distribution
+running retry local SimpleRandom distribution
